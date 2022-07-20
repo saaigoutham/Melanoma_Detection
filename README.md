@@ -26,10 +26,13 @@ Melanoma is a type of cancer that can be deadly if not detected early. It accoun
 
 
 ## Conclusions
-The model 3 was able predict skin cancer of all 9 classes with an accuracy metrics of,
-Training Accuracy: 91 %
-Validation Accuracy: 85 %
+Class rebalance helps in reducing overfititng of the data and increased the accuracy as well
+Training Accuracy = 91.47 %
+Validation Accuracy - 85.00 %
+- Model 1 --> Without Dropout and augmentation which created data to overfit at high ratio
+- Model 2 --> With Dropout and Augmentation which reduced overfitting but Accuracy dropped drastically
+- Model 3 --> With Batch Normalization and Augumentation which provided good results and better accuracy when compared to other models
 
 
 ## Contact
-@Saaigoutham - feel free to contact me!
+<a href="https://github.com/saaigoutham" target="_blank" >@Saaigoutham </a> - feel free to contact me! <br>
